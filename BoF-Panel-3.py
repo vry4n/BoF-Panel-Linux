@@ -2,7 +2,7 @@
 import socket
 
 # Part 3 of proof of concept by Vry4n
-# This script is intended send a pattern created with Metasploit pattern_create.rb script
+# This script is intended send the size of the buffer with As as identified by pattern create and pattern offset
 
 FUZZ = 'A' * 120
 print("Fuzzing with {} bytes".format(len(FUZZ)))
